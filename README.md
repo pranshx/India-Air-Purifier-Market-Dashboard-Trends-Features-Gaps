@@ -185,15 +185,15 @@ The interactive **Power BI dashboard** integrates AQI, demographics, health outc
 
 ### 1. National AQI & Trends
 <p align="center">
-  <img src="Image_Asset/India%20Air%20Purifier%20Market%20Dashboard%20Trends,%20Features%20&%20Gaps_page-0001.png" width="600"/>
+  <img src="Image_Asset/India%20Air%20Purifier%20Market%20Dashboard%20Trends,%20Features%20&%20Gaps_page-0001.jpg" width="600"/>
 </p>
 **Insight:** Tracks current AQI, 6-month averages, and 12-month trends to monitor pollution patterns across India.
 
 ---
 
-### 2. Priority Cities & State Risk Score
+### 2. State Risk Score
 <p align="center">
-  <img src="Image_Asset/India Air Purifier Market Dashboard Trends, Features & Gaps_page-0002.png" width="600"/>
+  <img src="Image_Asset/India%20Air%20Purifier%20Market%20Dashboard%20Trends,%20Features%20&%20Gaps_page-0002.jpg" width="600"/>
 </p>
 **Insight:** Identifies top-risk states using the composite **Risk Score = AQI × Population × Income**, and flags Tier-1 & Tier-2 cities with irreversible AQI degradation.
 
@@ -201,7 +201,7 @@ The interactive **Power BI dashboard** integrates AQI, demographics, health outc
 
 ### 3. Competitor Benchmarking
 <p align="center">
-  <img src="Image_Asset/India Air Purifier Market Dashboard Trends, Features & Gaps_page-0003.png" width="600"/>
+  <img src="Image_Asset/India%20Air%20Purifier%20Market%20Dashboard%20Trends,%20Features%20&%20Gaps_page-0003.jpg" width="600"/>
 </p>
 **Insight:** Benchmarks competitors by **market share, pricing, and features**, revealing brand strengths and weaknesses.
 
@@ -209,7 +209,7 @@ The interactive **Power BI dashboard** integrates AQI, demographics, health outc
 
 ### 4. Feature Gap Matrix & Price-Feature Analysis
 <p align="center">
-  <img src="Image_Asset/India Air Purifier Market Dashboard Trends, Features & Gaps_page-0004.png" width="600"/>
+  <img src="Image_Asset/India%20Air%20Purifier%20Market%20Dashboard%20Trends,%20Features%20&%20Gaps_page-0004.jpg" width="600"/>
 </p>
 **Insight:** Maps feature adoption across price segments. Highlights gaps such as **IoT, UV Sterilization, and Voice Control**, which are under-adopted but trending in consumer demand.
 
