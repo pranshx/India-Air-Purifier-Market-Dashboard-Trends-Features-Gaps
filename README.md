@@ -164,6 +164,67 @@ This section explores demographic and regional insights using AQI, health, and b
 
 ---
 
+## Perceptual Positioning
 
+This positioning map compares air purifier brands across **features vs. price**.  
+It highlights how brands cluster into **Premium, Mid-Premium, Smart Budget, and Budget** categories, and identifies an untapped **market gap**.
+
+<p align="center">
+  <img src="Image_Asset/Perceptual_Positioning.png" width="600"/>
+</p>
+
+**Insight:**  
+Most competitors cluster at either low-feature/low-price or high-feature/high-price segments.  
+The **Advanced Features + Mid-Price (~₹15k–25k)** range shows a clear **market gap**, presenting a strong opportunity for AirPure Innovations to position a differentiated product.
+
+## Power BI Dashboard Preview
+
+The interactive **Power BI dashboard** integrates AQI, demographics, health outcomes, consumer behavior, and competitor features into a single decision-support tool.
+
+---
+
+### 1. National AQI & Trends
+<p align="center">
+  <img src="Image_Asset/India%20Air%20Purifier%20Market%20Dashboard%20Trends,%20Features%20&%20Gaps_page-0001.png" width="600"/>
+</p>
+**Insight:** Tracks current AQI, 6-month averages, and 12-month trends to monitor pollution patterns across India.
+
+---
+
+### 2. Priority Cities & State Risk Score
+<p align="center">
+  <img src="Image_Asset/India Air Purifier Market Dashboard Trends, Features & Gaps_page-0002.png" width="600"/>
+</p>
+**Insight:** Identifies top-risk states using the composite **Risk Score = AQI × Population × Income**, and flags Tier-1 & Tier-2 cities with irreversible AQI degradation.
+
+---
+
+### 3. Competitor Benchmarking
+<p align="center">
+  <img src="Image_Asset/India Air Purifier Market Dashboard Trends, Features & Gaps_page-0003.png" width="600"/>
+</p>
+**Insight:** Benchmarks competitors by **market share, pricing, and features**, revealing brand strengths and weaknesses.
+
+---
+
+### 4. Feature Gap Matrix & Price-Feature Analysis
+<p align="center">
+  <img src="Image_Asset/India Air Purifier Market Dashboard Trends, Features & Gaps_page-0004.png" width="600"/>
+</p>
+**Insight:** Maps feature adoption across price segments. Highlights gaps such as **IoT, UV Sterilization, and Voice Control**, which are under-adopted but trending in consumer demand.
+
+---
+
+### 🔑 Dashboard Highlights
+- **National AQI Tracker:** Current, 6-month, and 12-month trend monitoring.  
+- **Risk Scoring Model:** Prioritization of states & cities for product launch.  
+- **Consumer Behavior Correlation:** AQI vs Google Trends search interest.  
+- **Competitor Landscape:** Market share, pricing, and product positioning.  
+- **Feature Gap Matrix:** Detects underserved features for innovation.  
+
+---
+
+**Takeaway:**  
+This dashboard enables **data-driven market entry strategy** by linking environmental risk, health outcomes, and consumer demand with **competitor gaps** — helping AirPure Innovations decide **where to launch, what to build, and how to price**.
 
 
