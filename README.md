@@ -68,6 +68,10 @@ Each dataset serves a specific purpose in building the dashboard:
    *Purpose:* Correlate pollution exposure with disease prevalence.  
 
 9. **vahan** – Vehicle registration and fuel type data by state and RTO.
+   *Purpose:* Understand EV adoption trends and their effect on AQI. 
+
+10. **age_group_affected** – Health outcomes segmented by age and cause.  
+    *Purpose:* Identify vulnerable age groups (children, elderly) most impacted by air pollution.
 
 ## Major Metrics
 
@@ -86,67 +90,80 @@ This project builds several calculated metrics to turn raw data into actionable 
 
 6. **% Feature Adoption** – Market penetration of each feature (used in Feature Gap Matrix).  
 
-7. **Price per CADR** – Normalized efficiency measure (₹ per m³/h).  
-
-   *Purpose:* Understand EV adoption trends and their effect on AQI.  
-
-11. **age_group_affected** – Health outcomes segmented by age and cause.  
-    *Purpose:* Identify vulnerable age groups (children, elderly) most impacted by air pollution.
+7. **Price per CADR** – Normalized efficiency measure (₹ per m³/h).   
 
 ## Initial Demographic Analysis
 
-This section explores demographic and regional insights using AQI, health, and behavioral datasets.  
+This section explores demographic and regional insights using AQI, health, and behavioral datasets.
 
 ---
 
-### Query 1: Age Group Demographics and Health Outcomes  
-**Photo:** ![Age Group Affected](Image_Asset/Age_Grp_Affected.png)  
-**Insight:** Elderly (65+) and children (0–4) are the most vulnerable groups to air pollution-related diseases, while 15–39 and 5–14 age groups face lower risks across cities.  
+### Query 1: Age Group Demographics and Health Outcomes
+<p align="center">
+  <img src="Image_Asset/Age_Grp_Affected.png" width="600"/>
+</p>
+**Insight:** Elderly (65+) and children (0–4) are the most vulnerable groups to air pollution-related diseases, while 15–39 and 5–14 age groups face lower risks across cities.
 
 ---
 
-### Query 2: Seasonal Air Quality Patterns  
-**Photo:** ![Monthly AQI](Image_Asset/Monthly_AQI.png)  
-**Insight:** AQI peaks during winter months (Nov–Jan) across most states due to crop burning, poor atmospheric dispersion, and heating fuel use.  
+### Query 2: Seasonal Air Quality Patterns
+<p align="center">
+  <img src="Image_Asset/Monthly_AQI.png" width="600"/>
+</p>
+**Insight:** AQI peaks during winter months (Nov–Jan) across most states due to crop burning, reduced atmospheric dispersion, and heating fuel use.
 
 ---
 
-### Query 3: Electric Vehicle Adoption and Air Quality  
-**Photo:** ![EV Adoption](Image_Asset/EV_Adoption.png)  
-**Insight:** Top EV adoption states include Uttar Pradesh, Maharashtra, Karnataka, Tamil Nadu, and Rajasthan. While EV adoption shows some link to better AQI, the correlation is not statistically strong without controlling for other factors.  
+### Query 3: Electric Vehicle Adoption and Air Quality
+<p align="center">
+  <img src="Image_Asset/EV_Adoption.png" width="600"/>
+</p>
+**Insight:** Top EV-adoption states include Uttar Pradesh, Maharashtra, Karnataka, Tamil Nadu, and Rajasthan. EV adoption shows some link to better AQI, but the relationship isn’t statistically strong without controlling for confounders.
 
 ---
 
-### Query 4: Population vs AQI  
-**Photo:** ![Population vs AQI](Image_Asset/Pop_AQI.png)  
-**Insight:** Population size alone does not determine poor air quality — urban planning, industrial activity, and traffic density are stronger factors. Large well-managed cities can perform better than smaller industrial hubs.  
+### Query 4: Population vs AQI
+<p align="center">
+  <img src="Image_Asset/Pop_AQI.png" width="600"/>
+</p>
+**Insight:** Population size alone doesn’t determine air quality—urban planning, industrial activity, and traffic density are stronger drivers. Well-managed large cities can outperform smaller industrial hubs.
 
 ---
 
-### Query 5: Priority Cities for Air Purifier Adoption  
-**Photo:** ![Priority Cities](Image_Asset/Priority_Cities.png)  
-**Insight:** Cities with irreversible AQI degradation (based on baseline vs current AQI trends) are flagged as **priority adoption markets** for air purifiers.  
+### Query 5: Priority Cities for Air Purifier Adoption
+<p align="center">
+  <img src="Image_Asset/Priority_Cities.png" width="600"/>
+</p>
+**Insight:** Cities showing irreversible AQI degradation (baseline vs latest with trend) are flagged as **priority markets** for air purifier adoption.
 
 ---
 
-### Query 6: Prominent Pollutants in Southern India  
-**Photo:** ![Top 2 Pollutants](Image_Asset/TOP2_Pollutant.png)  
-**Insight:** PM10 and PM2.5 are the dominant pollutants across southern states (post-2022), showing regional consistency in pollution drivers.  
+### Query 6: Prominent Pollutants in Southern India
+<p align="center">
+  <img src="Image_Asset/TOP2_Pollutant.png" width="600"/>
+</p>
+**Insight:** PM10 and PM2.5 are the dominant pollutants across southern states (post-2022), indicating consistent regional pollution profiles.
 
 ---
 
-### Query 7: Extreme AQI Areas (Last 6 Months)  
-**Photo:** ![Top 5 AQI](Image_Asset/TOP5_AQI.png)  
-**Insight:** Top 5 polluted areas: Bahadurgarh, Byrnihat, Delhi, Hajipur, Sonipat.  
-Bottom 5 areas: Chamarajanagar, Palkalaiperur, Vijayapura, Madikeri, Tirunelvel.  
+### Query 7: Extreme AQI Areas (Last 6 Months)
+<p align="center">
+  <img src="Image_Asset/TOP5_AQI.png" width="600"/>
+</p>
+**Insight:**  
+- **Top 5 polluted areas:** Bahadurgarh, Byrnihat, Delhi, Hajipur, Sonipat  
+- **Bottom 5 areas:** Chamarajanagar, Palkalaiperur, Vijayapura, Madikeri, Tirunelvel
 
 ---
 
-### Query 8: Weekend vs Weekday AQI in Metro Cities  
-**Photo:** ![Weekday vs Weekend AQI](Image_Asset/WeekDay_VS_WeekEnd.png)  
-**Insight:** 5 out of 8 metros see improved AQI on weekends due to reduced traffic and industry. Delhi shows the largest drop (209 → 199 AQI).  
+### Query 8: Weekend vs Weekday AQI in Metro Cities
+<p align="center">
+  <img src="Image_Asset/WeekDay_VS_WeekEnd.png" width="600"/>
+</p>
+**Insight:** 5 of 8 metros show improved AQI on weekends due to lower traffic/industry. Delhi shows the largest drop (209 → 199).
 
 ---
+
 
 
 
